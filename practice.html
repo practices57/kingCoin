@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background: black;
+            overflow-x: hidden;
+        }
+        .container{
+            display: grid;
+
+            place-content: center;
+           
+        }
+        .class{
+            background-size: cover;
+            height: 66vh;
+            width: 100vw;
+            display: grid;
+           place-content: center;
+        }
+        .card{
+            background: black;
+            height: 12.5em;
+            width: 12.5em;
+            border-radius: 50%;
+            position: absolute;
+            align-content: center;
+            justify-items: center;
+            display: grid;
+            place-self: center;
+            transform: translate(0em,6.6em);
+        }
+        .road{
+            border:5px solid black;
+            border-top-color:whitesmoke ;
+            background: black;
+            height: 10.5em;
+            width: 10.5em;
+            border-radius: 50%;
+            display: grid;
+            place-content: center;
+            animation: hate 1s ease infinite forwards;
+
+        }
+        @keyframes hate {
+            form{
+                transform: rotate(0turn);
+            }
+            to{
+                transform: rotate(1turn);
+            }
+        }
+        .p{
+            color: grey;
+            font-size: larger;
+            font-weight: bolder;
+            font-size: 1.5em;
+            position: absolute;
+            margin-top: 3.5em;
+            display: grid;
+            place-content: center;
+            
+        }
+        .p2{
+            color: grey;
+            font-size: larger;
+            font-weight: bolder;
+            font-size: 2em;
+            position: absolute;
+            display: grid;
+            place-self: center;
+            transform: translate(0em,11.5em);
+            
+        }
+        .p3{
+            color: silver;
+            font-size: larger;
+            font-weight: bolder;
+            font-size: 1.5em;
+            position: absolute;
+            display: grid;
+            place-self: center;
+            transform: translate(2em,11.8em);
+            
+        }
+        .sonic{
+            color: rgb(255, 255, 255);
+            font-size: larger;
+            font-weight: bolder;
+            font-size: 1.9em;
+            display: grid;
+            place-self: center;
+            transform: translate(0em,0.5em);
+        }
+        .media{
+            transform: translate(0em,27em);
+            background: rgb(28, 27, 27);
+            width: 25em;
+            height: 5em;
+            position: absolute;
+            border-radius: 5em;
+            display: grid;
+            place-self: center; 
+        }
+        .media1{
+            height: 3.2em;
+            width: 3.2em;
+            display: grid;
+            place-self: center; 
+            border-radius: 50%; 
+            position: absolute;
+            transform: translate(0.6em,0.9em);
+        }
+        .media2{
+            height: 3.2em;
+            width: 3.2em;
+            display: grid;
+            place-self: center;
+            transform: translate(5.5em,-0.2em);
+            border-radius: 50%;
+            position: absolute;
+        }
+        .media3{
+            height: 3.2em;
+            width: 3.2em;
+            display: grid;
+            place-self: center; 
+            border-radius: 50%;
+            transform: translate(10.5em,-1em); 
+            position: absolute;
+            
+        }
+        .media4{
+            height: 3.2em;
+            width: 3.2em;
+            display: grid;
+            place-self: center;  
+            border-radius: 50%;
+            transform: translate(15.5em,-1.9em); 
+            position: absolute;
+        }
+        .media5{
+            height: 3.2em;
+            width: 3.2em;
+            display: grid;
+            place-self: center;  
+            border-radius: 50%;
+            transform: translate(20.5em,-3em);
+            position: absolute; 
+        }
+         @media screen and (width <= 768px) {
+            .p3{
+                transform: translate(0em,12.8em);
+                display: grid;
+                place-self: center;
+                /* background: red; */
+                width: 30em;
+                font-size: 1.4em;
+            }
+        } 
+        @media screen and (width <= 719px) {
+            .p3{
+                transform: translate(0.9em,13.3em);
+                display: grid;
+                place-self: center;
+                /* background: red; */
+                width: 20em;
+            }
+        } 
+        @media screen and (width <= 523px) {
+            .p3{
+                transform: translate(0em,12.5em);
+                display: grid;
+                place-self: center;
+                /* background: red; */
+                width: 19em;
+            }
+        } 
+    </style>
+<body>
+    <div class="container">
+        <img src="images2/ai-generate.jpg" alt="" class="class">
+        <div class="card">
+            <div class="road">
+
+            </div>
+            <p class="p">Loading...</p>
+        </div>
+        <p class="sonic">Sonic Coin</p>
+        <p class="p3">Welcome is Sonic Coin,your trusted partner for effcient and profitable mining operations,<br>let's dig in and maximize your yields. </p>
+        <p class="p2">Follow us on social media</p>
+        <div class="media">
+            <a href="" ><img src="images2/twitter-x.webp" alt="" class="media1"></a>
+            <a href="" ><img src="images2/facebook.png" alt="" class="media2"></a>
+            <a href="" ><img src="images2/Youtube.png" alt="" class="media3"></a>
+            <a href="" ><img src="images2/R.jpg" alt="" class="media4"></a>
+            <a href="" ><img src="images2/telegram.webp" alt="" class="media5"></a>
+        </div>
+    </div>
+</body>
+</html>
