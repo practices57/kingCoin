@@ -63,7 +63,7 @@
         font-size: large;
         color: grey;
         position: absolute;
-        font-size: 1.4em;
+        font-size: 1.6em;
        }
        .p2{
         display: grid;
@@ -74,6 +74,22 @@
         transform: translate(0em,-6.5em);
        }
        .p3{
+        display: grid;
+        place-self: center;
+        color: silver;
+        font-weight: bolder;
+        font-size: 1.5em;
+        transform: translate(0em,-7.8em);
+       }
+       .fate{
+        display: grid;
+        place-self: center;
+        color: silver;
+        font-weight: bolder;
+        font-size: 1.5em;
+        transform: translate(0em,-7.8em);
+       }
+       .fat{
         display: grid;
         place-self: center;
         color: silver;
@@ -120,6 +136,7 @@
        .media5{
         transform: translate(10em,-13.3em);
        }
+      
        @media screen and (width <= 816px) {
         .p3{
         display: grid;
@@ -127,7 +144,7 @@
         color: silver;
         font-weight: bolder;
         font-size: 1.5em;
-        transform: translate(0.4em,-8em);
+        transform: translate(4em,-8em);
         width: 26em;
        }
        }
@@ -166,9 +183,9 @@
         place-self: center;
         color: silver;
         font-weight: bolder;
-        font-size: 1.5em;
-        transform: translate(0.4em,-6.9em);
-        width: 26em;
+        font-size: 1.3em;
+        transform: translate(0.7em,-7.7em);
+        width: 20em;
        }
        .follow{
         display: grid;
@@ -177,26 +194,6 @@
         font-weight: bolder;
         font-size: 2em;
         transform: translate(0em,-5em);
-       }
-       .media{
-        display: grid;
-        place-self: center;
-        transform: translate(0em,-9.5em);
-        background: rgb(27, 27, 27);
-        width: 25em;
-        height:5em;
-        border-radius: 5em;
-       }
-       }
-       @media screen and (width <= 640px) {
-        .p3{
-        display: grid;
-        place-self: center;
-        color: silver;
-        font-weight: bolder;
-        font-size: 1.4em;
-        transform: translate(0.4em,-7em);
-        width: 20em;
        }
        .follow{
         display: grid;
@@ -238,43 +235,56 @@
         transform: translate(10em,-9.5em);
        }
        }
-       @media screen and (width <= 464px) {
-        .loading{
+       @media screen and (width <= 660px) {
+        .class{
+        height: 59vh;
+        width: 100vw;
+       }
+       .loading{
         display: grid;
         place-self: center;
-        height: 9.5em;
-        width: 9.5em;
+        height: 7em;
+        width: 7em;
         background: black;
         border-radius: 50%;
-        transform: translate(0em,-9.4em);
+        transform: translate(0em,-6.8em);
        }
        .road{
         display: grid;
         place-self: center;
-        height: 7.8em;
-        width: 7.8em;
+        height: 5.8em;
+        width: 5.8em;
         background: black;
         border-radius: 50%;
         position: absolute;
-        border:5px solid black;
+        border:3.5px solid black;
         border-top-color:whitesmoke ;
         animation: gate 1s ease infinite forwards;
        }
-        .p2{
+       .p2{
         display: grid;
         place-self: center;
         font-weight: bolder;
         color: whitesmoke;
-        font-size: 1.7em;
-        transform: translate(0em,-5.5em);
+        font-size: 1.6em;
+        transform: translate(0em,-4.4em);
        }
-       .p3{
+        .p{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        font-size: large;
+        color: grey;
+        position: absolute;
+        font-size: 0.9em;
+       }
+        .p3{
         display: grid;
         place-self: center;
         color: silver;
         font-weight: bolder;
         font-size: 1.2em;
-        transform: translate(0.4em,-7.3em);
+        transform: translate(0.4em,-5.6em);
         width: 20em;
        }
        .follow{
@@ -282,62 +292,205 @@
         place-self: center;
         color: grey;
         font-weight: bolder;
-        font-size: 1.8em;
-        transform: translate(0em,-4.5em);
+        font-size: 1.6em;
+        transform: translate(0em,-3.8em);
        }
        .media{
         display: grid;
         place-self: center;
-        transform: translate(0em,-7.4em);
+        transform: translate(0em,-5.5em);
         background: rgb(27, 27, 27);
         width: 25em;
-        height:3.5em;
-        border-radius: 5em;
-       }
-       }
-       @media screen and (width <= 400px) {
-        .p3{
-        display: grid;
-        place-self: center;
-        color: silver;
-        font-weight: bolder;
-        font-size: 1.1em;
-        transform: translate(0.4em,-8em);
-        width: 20em;
-       }
-        .media{
-        display: grid;
-        place-self: center;
-        transform: translate(0em,-7.5em);
-        background: rgb(27, 27, 27);
-        width: 22.2em;
         height:3.5em;
         border-radius: 5em;
        }
        .media1,.media2,.media3,.media4,.media5{
         display: grid;
         place-self: center;
-        height: 2.3em;
-        width: 2.3em;
+        height: 2.5em;
+        width: 2.5em;
         border-radius: 10em;
        }
        .media1{
-        transform: translate(-9em,0.5em);
+        transform: translate(-10em,0.5em);
        }
        .media2{
-        transform: translate(-5em,-1.8em);
+        transform: translate(-5em,-2em);
        }
        .media3{
-        transform: translate(0em,-4.1em);
+        transform: translate(0.1em,-4.5em);
        }
        .media4{
-        transform: translate(4.5em,-6.4em);
+        transform: translate(5em,-7em);
        }
        .media5{
-        transform: translate(8.5em,-8.7em);
+        transform: translate(10em,-9.5em);
+       }
+       }
+       @media screen and (width <= 464px) {
+        .loading{
+        display: grid;
+        place-self: center;
+        height: 7em;
+        width: 7em;
+        background: black;
+        border-radius: 50%;
+        transform: translate(0em,-6.8em);
+       }
+       .road{
+        display: grid;
+        place-self: center;
+        height: 5.8em;
+        width: 5.8em;
+        background: black;
+        border-radius: 50%;
+        position: absolute;
+        border:3.5px solid black;
+        border-top-color:whitesmoke ;
+        animation: gate 1s ease infinite forwards;
+       }
+       .p2{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        color: whitesmoke;
+        font-size: 1.6em;
+        transform: translate(0em,-4.4em);
+       }
+        .p{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        font-size: large;
+        color: grey;
+        position: absolute;
+        font-size: 0.9em;
+       }
+        .p3{
+        display: grid;
+        place-self: center;
+        color: silver;
+        font-weight: bolder;
+        font-size: 1.2em;
+        transform: translate(0.4em,-5.6em);
+        width: 20em;
+       }
+       .follow{
+        display: grid;
+        place-self: center;
+        color: grey;
+        font-weight: bolder;
+        font-size: 1.6em;
+        transform: translate(0em,-3.8em);
+       }
+       .media{
+        display: grid;
+        place-self: center;
+        transform: translate(0em,-5.5em);
+        background: rgb(27, 27, 27);
+        width: 20em;
+        height:3.5em;
+        border-radius: 5em;
+       }
+       .media1,.media2,.media3,.media4,.media5{
+        display: grid;
+        place-self: center;
+        height: 2.5em;
+        width: 2.5em;
+        border-radius: 10em;
+       }
+       .media1{
+        transform: translate(-7.5em,0.5em);
+       }
+       .media2{
+        transform: translate(-3.9em,-2em);
+       }
+       .media3{
+        transform: translate(-0.1em,-4.5em);
+       }
+       .media4{
+        transform: translate(3.5em,-7em);
+       }
+       .media5{
+        transform: translate(7em,-9.5em);
+       }
+       }
+       @media screen and (width <= 400px) {
+        .loading{
+        display: grid;
+        place-self: center;
+        height: 7em;
+        width: 7em;
+        background: black;
+        border-radius: 50%;
+        transform: translate(0em,-6.8em);
+       }
+       .road{
+        display: grid;
+        place-self: center;
+        height: 5.8em;
+        width: 5.8em;
+        background: black;
+        border-radius: 50%;
+        position: absolute;
+        border:3.5px solid black;
+        border-top-color:whitesmoke ;
+        animation: gate 1s ease infinite forwards;
+       }
+       .p2{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        color: whitesmoke;
+        font-size: 1.6em;
+        transform: translate(0em,-4.4em);
+       }
+        .p{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        font-size: large;
+        color: grey;
+        position: absolute;
+        font-size: 0.9em;
+       }
+        .p3{
+        display: grid;
+        place-self: center;
+        color: silver;
+        font-weight: bolder;
+        font-size: 1em;
+        transform: translate(0.4em,-6.5em);
+        width: 20em;
+       }
+       .follow{
+        display: grid;
+        place-self: center;
+        color: grey;
+        font-weight: bolder;
+        font-size: 1.2em;
+        transform: translate(0em,-5em);
+       }
+       .media{
+        display: grid;
+        place-self: center;
+        transform: translate(0em,-5.5em);
+        background: rgb(27, 27, 27);
+        width: 19em;
+        height:3.5em;
+        border-radius: 5em;
        }
        }
        @media screen and (width <= 365px) {
+        .p{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        font-size: large;
+        color: grey;
+        position: absolute;
+        font-size: 1.1em;
+       }
         .follow{
         display: grid;
         place-self: center;
@@ -363,7 +516,7 @@
         border-radius: 10em;
        }
        .media1{
-        transform: translate(-7.5em,0.5em);
+        transform: translate(-7em,0.5em);
        }
        .media2{
         transform: translate(-4em,-1.8em);
@@ -378,47 +531,64 @@
         transform: translate(6.9em,-8.7em);
        }    
        }
-       @media screen and (width <= 363px) {
-        .p3{
-        display: grid;
-        place-self: center;
-        color: silver;
-        font-weight: bolder;
-        font-size: 1em;
-        transform: translate(0.3em,-9.5em);
-        width: 19.3em;
-       }
-       }
-       @media screen and (width <= 327px) {
-        .p2{
-        display: grid;
-        place-self: center;
-        font-weight: bolder;
-        color: whitesmoke;
-        font-size: 1.5em;
-        transform: translate(0em,-6.3em);
-       }
+       @media screen and (width <= 365px) {
         .follow{
         display: grid;
         place-self: center;
         color: grey;
         font-weight: bolder;
         font-size: 1.3em;
-        transform: translate(0em,-6.3em);
+        transform: translate(0em,-4.5em);
+       }
+       .media{
+        display: grid;
+        place-self: center;
+        transform: translate(0em,-5.5em);
+        background: rgb(27, 27, 27);
+        width: 16.8em;
+        height:3.5em;
+        border-radius: 5em;
+       }
+       }
+       @media screen and (width <= 330px) {
+        .p{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        font-size: large;
+        color: grey;
+        position: absolute;
+        font-size: 0.9em;
+       }
+        .p2{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        color: whitesmoke;
+        font-size: 1.5em;
+        transform: translate(0em,-4.8em);
+       }
+        .follow{
+        display: grid;
+        place-self: center;
+        color: grey;
+        font-weight: bolder;
+        font-size: 1.1em;
+        transform: translate(0em,-5.5em);
        }
         .p3{
         display: grid;
         place-self: center;
         color: silver;
         font-weight: bolder;
-        font-size: 1em;
-        transform: translate(0.3em,-9em);
+        font-size: 0.8em;
+        transform: translate(0.3em,-8.6em);
         width: 19.3em;
        }
         .media{
         display: grid;
         place-self: center;
-        transform: translate(0em,-7.5em);
+        transform: translate(0em,-5.5em);
         background: rgb(27, 27, 27);
         width: 16.8em;
         height:3.5em;
@@ -427,35 +597,48 @@
        .media1,.media2,.media3,.media4,.media5{
         display: grid;
         place-self: center;
-        height: 2.3em;
-        width: 2.3em;
+        height: 2em;
+        width: 2em;
         border-radius: 10em;
        }
        .media1{
         transform: translate(-6.5em,0.5em);
        }
        .media2{
-        transform: translate(-3.5em,-1.8em);
+        transform: translate(-3.5em,-1.5em);
        }
        .media3{
-        transform: translate(-0.3em,-4.1em);
+        transform: translate(-0.3em,-3.5em);
        }
        .media4{
-        transform: translate(3em,-6.4em);
+        transform: translate(3em,-5.5em);
        }
        .media5{
-        transform: translate(6em,-8.7em);
+        transform: translate(6em,-7.5em);
        }    
        }
-       @media screen and (width <= 317px) {
+       @media screen and (width <= 318px) {
+        .class{
+        height: 59vh;
+        width: 100vw;
+       }
         .p3{
         display: grid;
         place-self: center;
         color: silver;
         font-weight: bolder;
-        font-size: 0.9em;
-        transform: translate(0.3em,-10em);
+        font-size: 0.8em;
+        transform: translate(0.3em,-8.6em);
         width: 19.3em;
+       }
+       .p{
+        display: grid;
+        place-self: center;
+        font-weight: bolder;
+        font-size: large;
+        color: grey;
+        position: absolute;
+        font-size: 0.9em;
        }
        }
        @media screen and (width <= 280px) {
@@ -465,7 +648,7 @@
         color: silver;
         font-weight: bolder;
         font-size: 0.7em;
-        transform: translate(0.3em,-11.5em);
+        transform: translate(0.3em,-9em);
         width: 19.3em;
        }
        .p2{
@@ -474,7 +657,7 @@
         font-weight: bolder;
         color: whitesmoke;
         font-size: 1.2em;
-        transform: translate(0em,-7.1em);
+        transform: translate(0em,-5.7em);
        }
        .follow{
         display: grid;
@@ -482,12 +665,12 @@
         color: grey;
         font-weight: bolder;
         font-size: 1.1em;
-        transform: translate(0em,-7em);
+        transform: translate(0em,-5em);
        }
        .media{
         display: grid;
         place-self: center;
-        transform: translate(0em,-7.5em);
+        transform: translate(0em,-5em);
         background: rgb(27, 27, 27);
         width: 12.8em;
         height:3.3em;
@@ -518,11 +701,11 @@
        .loading{
         display: grid;
         place-self: center;
-        height: 8.5em;
-        width: 8.5em;
+        height: 7em;
+        width: 7em;
         background: black;
         border-radius: 50%;
-        transform: translate(0em,-8.4em);
+        transform: translate(0em,-6.8em);
        }
        .road{
         display: grid;
@@ -532,10 +715,10 @@
         background: black;
         border-radius: 50%;
         position: absolute;
-        border:4px solid black;
+        border:3.5px solid black;
         border-top-color:whitesmoke ;
         animation: gate 1s ease infinite forwards;
-       }   
+       }
        .p{
         display: grid;
         place-self: center;
@@ -543,9 +726,13 @@
         font-size: large;
         color: grey;
         position: absolute;
-        font-size: 1em;
+        font-size: 0.9em;
        }
+       .class{
+        height: 59vh;
+        width: 100vw;
        }
+       } 
        </style>
 <body>
     <div class="container">
@@ -557,7 +744,7 @@
             <p class="p">Loading...</p>
        </div>
        <p class="p2">Sonic Coin</p>
-       <p class="p3">Welcome to Sonic Coin,your trusted partner for effcient and profitable mining operations,<br>let's dig in and maximize your yields.</p>
+       <p class="p3">Welcome to Sonic Coin,your trusted partner <br>for effcient and profitable mining operations,<br> let's dig in and maximize your yields.</p>
        <p class="follow">Follow on social media</p>
        <div class="media">
         <a href="" ><img src="twitter-x.webp" alt="" class="media1"></a>
@@ -567,10 +754,11 @@
         <a href="" ><img src="telegram.webp" alt="" class="media5"></a>
        </div>
     </div>
-<script>
-</script>
 </body>
     <script>
-       
+       let container = document.querySelector(".container");
+       setTimeout(() => {
+        container.style.display="none";
+       }, 3000); 
     </script>
 </html>
